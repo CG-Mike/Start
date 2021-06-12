@@ -177,11 +177,9 @@ body {
 .buttonLink {
   grid-row: 2;
   grid-column: 1;
-  display: flex;
-  /* grid-template-columns: repeat(3, 1fr); */
-  /* grid-template-rows: repeat(2, 1fr); */
-  grid-gap: 30px;
-  padding: 5px;
+  display: inline-grid;
+  grid-gap: 50px;
+  padding: 10px;
 }
 
 .buttonLink__link {
