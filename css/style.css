@@ -100,17 +100,15 @@ body {
 }
 
 .timeBlock {
-  grid-row: 1 / span 2;
-  grid-column: 1 / span 2;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  align-items: baseline;
+  justify-content: right;
 }
 
 .weatherBlock {
-  grid-column: 3 / span 2;
-  grid-row: 1 / span 2;
+  grid-column: 4;
+  grid-row: 1;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -187,15 +185,13 @@ body {
 }
 
 .buttonLink__link {
-  display: flex;
-  justify-content: content;
-  align-items: center;
+  display: contents;
   width: 100%;
 }
 
 .buttonLink__icon {
-  width: 23px;
-  height: 23px;
+  width: 30px;
+  height: 30px;
   color: var(--fg);
 }
 
@@ -280,8 +276,10 @@ body {
   }
 
   .timeBlock {
-    grid-row: 1 / span 2;
-    grid-column: 1 / span 4;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    justify-content: right;
   }
 
   .weatherBlock {
